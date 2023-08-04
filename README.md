@@ -19,6 +19,6 @@ ErrorDetails class is returned in response to exceptions thrown.
 Loggers are written using slf4j library.
 Database used is MySQL.
 Lombok is configured to remove the boiler plate code.
-Swagger is configured to view the documentation of this REST API.
+Swagger is configured to view the documentation of this REST API
 
 So, this service provides Securing REST APIs (Role Based Access Control) in Spring Security with JWT Authentication Token using SpringBoot
