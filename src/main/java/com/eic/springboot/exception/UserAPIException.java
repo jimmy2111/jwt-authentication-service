@@ -1,0 +1,15 @@
+package com.eic.springboot.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value = HttpStatus.BAD_REQUEST)
+public class UserAPIException extends RuntimeException{
+
+    private String message;
+
+    public UserAPIException(String message){
+        super(message);
+        this.message=message;
+    }
+}
